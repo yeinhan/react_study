@@ -5,3 +5,9 @@ State
 
 state에 저장해놓는 이유;
 웹이 app처럼 동작하게 만들고 싶어서 => html이 자동으로 재렌더링됨
+
+
+/** 0323*/
+-Array, objectstate 데이터 수정 방법 => 일단 변경함수를 써야함, 변경함수(대체할데이터)
+ state는 직접 건들면 안됨 => 복사본을 만들어라 [...title] (deepcopy)
+-리액트 대원칙 immutable data
