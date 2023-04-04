@@ -11,3 +11,14 @@ state에 저장해놓는 이유;
 -Array, objectstate 데이터 수정 방법 => 일단 변경함수를 써야함, 변경함수(대체할데이터)
  state는 직접 건들면 안됨 => 복사본을 만들어라 [...title] (deepcopy)
 -리액트 대원칙 immutable data
+
+
+/** 04-04 */
+-임포트 확인 userState
+
+Component
+-이름은 대문자
+-관리가 편해짐
+-반복출현하는 HTML덩어리
+-자주 변경되는 HTML UI들
+-다른 페이지 만들 떄도 컴포넌트로 만듦
